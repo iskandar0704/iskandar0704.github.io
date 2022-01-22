@@ -1,0 +1,288 @@
+.connect {
+  max-width: 1440px;
+  font-family: Georgia, serif;
+}
+.header {
+  width: 1440px;
+  height: 150px;
+  background-color: blue;
+}
+.logo {
+  width: 200px;
+  height: 117px;
+  position: absolute;
+  top: 10px;
+  left: 5px;
+}
+.name {
+  position: absolute;
+  top: 40px;
+  left: 250px;
+}
+.nav {
+  position: absolute;
+  top: 100px;
+  right: 20px;
+  font-family: Georgia, serif;
+}
+.nav-link {
+  display: inline-block;
+  vertical-align: top;
+  margin: 10px;
+
+  transition: color 0.2s linear;
+}
+.nav-link::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 3px;
+  display: none;
+  background-color: white;
+}
+.nav-link:hover {
+  color: white;
+}
+.nav-link:hover::after {
+  display: block;
+}
+.product1 {
+  width: 700px;
+  height: 400px;
+  position: absolute;
+  top: 200px;
+  left: 10px;
+  background-color: blue;
+}
+.bronedisk {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  top: 30px;
+  left: 30px;
+}
+.product1_button {
+  position: absolute;
+  top: 330px;
+  left: 50px;
+  width: 600px;
+  height: 50px;
+  background-color: white;
+  color: black;
+}
+.product2 {
+  width: 700px;
+  height: 400px;
+  position: absolute;
+  top: 200px;
+  right: 10px;
+  background-color: blue;
+}
+.koleso {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  width: 200px;
+  height: 200px;
+}
+.product2_button {
+  position: absolute;
+  top: 330px;
+  left: 50px;
+  width: 600px;
+  height: 50px;
+  background-color: white;
+  color: black;
+}
+.product3 {
+  width: 700px;
+  height: 400px;
+  position: absolute;
+  top: 650px;
+  left: 10px;
+  background-color: blue;
+}
+.grat {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  width: 200px;
+  height: 200px;
+}
+.product3_button {
+  position: absolute;
+  top: 330px;
+  left: 50px;
+  width: 600px;
+  height: 50px;
+  background-color: white;
+  color: black;
+}
+.product4 {
+  width: 700px;
+  height: 400px;
+  position: absolute;
+  top: 650px;
+  right: 10px;
+  background-color: blue;
+}
+.podshipnik {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  width: 200px;
+  height: 200px;
+}
+.product4_button {
+  position: absolute;
+  top: 330px;
+  left: 50px;
+  width: 600px;
+  height: 50px;
+  background-color: white;
+  color: black;
+}
+.product5 {
+  width: 700px;
+  height: 400px;
+  position: absolute;
+  top: 1100px;
+  left: 10px;
+  background-color: blue;
+}
+.napravlyayushiy {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  width: 200px;
+  height: 200px;
+}
+.product5_button {
+  position: absolute;
+  top: 330px;
+  left: 50px;
+  width: 600px;
+  height: 50px;
+  background-color: white;
+  color: black;
+}
+.product6 {
+  width: 700px;
+  height: 400px;
+  position: absolute;
+  top: 1100px;
+  right: 10px;
+  background-color: blue;
+}
+.rabochiye {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  top: 30px;
+  left: 30px;
+}
+.product6_button {
+  position: absolute;
+  top: 330px;
+  left: 50px;
+  width: 600px;
+  height: 50px;
+  background-color: white;
+  color: black;
+}
+.footer {
+  position: absolute;
+  top: 1550px;
+  width: 1440px;
+  height: 500px;
+  background-color: blue;
+  color: white;
+  font-family: Georgia, serif;
+}
+.contacts {
+  position: absolute;
+  top: 100px;
+  left: 150px;
+  font-size: 40px;
+}
+.caller_icon {
+  position: absolute;
+  top: 190px;
+  left: 70px;
+  width: 40px;
+  height: 40px;
+}
+.phone {
+  position: absolute;
+  top: 190px;
+  left: 130px;
+  font-size: 25px;
+}
+.email_icon {
+  position: absolute;
+  top: 250px;
+  left: 70px;
+  width: 40px;
+  height: 40px;
+}
+.email {
+  position: absolute;
+  top: 250px;
+  left: 140px;
+  font-size: 25px;
+}
+.social {
+  position: absolute;
+  top: 100px;
+  left: 570px;
+  font-size: 40px;
+}
+.instagram_icon {
+  position: absolute;
+  top: 190px;
+  left: 610px;
+  width: 40px;
+  height: 40px;
+}
+.instagram {
+  position: absolute;
+  top: 190px;
+  left: 670px;
+  font-size: 25px;
+}
+.facebook_icon {
+  position: absolute;
+  top: 250px;
+  left: 610px;
+  width: 40px;
+  height: 40px;
+}
+.facebook {
+  position: absolute;
+  top: 250px;
+  left: 670px;
+  font-size: 25px;
+}
+.address {
+  position: absolute;
+  top: 100px;
+  right: 200px;
+  font-size: 40px;
+}
+.location_icon {
+  position: absolute;
+  top: 220px;
+  right: 360px;
+  width: 40px;
+  height: 40px;
+}
+.location_con {
+  position: absolute;
+  top: 200px;
+  right: 35px;
+  width: 300px;
+}
+.location {
+  position: relative;
+  font-size: 25px;
+}

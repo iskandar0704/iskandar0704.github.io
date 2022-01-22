@@ -1,0 +1,195 @@
+.h1 {
+  color: black;
+}
+.name {
+  top: 40px;
+  left: 250px;
+  font-family: Georgia, serif;
+}
+.logo {
+  top: 10px;
+  left: 5px;
+}
+.nav {
+  position: absolute;
+  top: 100px;
+  right: 20px;
+  font-family: Georgia, serif;
+}
+.nav-link {
+  display: inline-block;
+  vertical-align: top;
+  margin: 10px;
+
+  transition: color 0.2s linear;
+}
+.nav-link::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 3px;
+  display: none;
+  background-color: white;
+}
+.nav-link:hover {
+  color: white;
+}
+.nav-link:hover::after {
+  display: block;
+}
+.img1 {
+  position: absolute;
+  top: 200px;
+  left: 50px;
+  width: 400px;
+  height: 400px;
+}
+.badge1 {
+  position: absolute;
+  top: 280px;
+  right: 250px;
+  font-family: Georgia, serif;
+  font-size: 30px;
+}
+
+.img2 {
+  position: absolute;
+  top: 700px;
+  right: 50px;
+  width: 400px;
+  height: 400px;
+}
+.badge2 {
+  position: absolute;
+  top: 725px;
+  left: 150px;
+  width: 600px;
+  font-family: Georgia, serif;
+  font-size: 30px;
+}
+.img3 {
+  position: absolute;
+  top: 1200px;
+  left: 50px;
+  width: 400px;
+  height: 400px;
+}
+.badge3 {
+  position: absolute;
+  top: 1200px;
+  right: 100px;
+  width: 600px;
+  font-family: Georgia, serif;
+  font-size: 30px;
+}
+.img4 {
+  position: absolute;
+  top: 1700px;
+  right: 50px;
+  width: 400px;
+  height: 400px;
+}
+.badge4 {
+  position: absolute;
+  top: 1720px;
+  left: 150px;
+  width: 600px;
+  font-family: Georgia, serif;
+  font-size: 30px;
+}
+.footer {
+  position: absolute;
+  top: 2200px;
+  width: 1440px;
+  height: 500px;
+  background-color: blue;
+  color: white;
+  font-family: Georgia, serif;
+}
+.contacts {
+  position: absolute;
+  top: 100px;
+  left: 150px;
+  font-size: 40px;
+}
+.caller_icon {
+  position: absolute;
+  top: 190px;
+  left: 70px;
+  width: 40px;
+  height: 40px;
+}
+.phone {
+  position: absolute;
+  top: 190px;
+  left: 130px;
+  font-size: 25px;
+}
+.email_icon {
+  position: absolute;
+  top: 250px;
+  left: 70px;
+  width: 40px;
+  height: 40px;
+}
+.email {
+  position: absolute;
+  top: 250px;
+  left: 140px;
+  font-size: 25px;
+}
+.social {
+  position: absolute;
+  top: 100px;
+  left: 570px;
+  font-size: 40px;
+}
+.instagram_icon {
+  position: absolute;
+  top: 190px;
+  left: 610px;
+  width: 40px;
+  height: 40px;
+}
+.instagram {
+  position: absolute;
+  top: 190px;
+  left: 670px;
+  font-size: 25px;
+}
+.facebook_icon {
+  position: absolute;
+  top: 250px;
+  left: 610px;
+  width: 40px;
+  height: 40px;
+}
+.facebook {
+  position: absolute;
+  top: 250px;
+  left: 670px;
+  font-size: 25px;
+}
+.address {
+  position: absolute;
+  top: 100px;
+  right: 200px;
+  font-size: 40px;
+}
+.location_icon {
+  position: absolute;
+  top: 220px;
+  right: 360px;
+  width: 40px;
+  height: 40px;
+}
+.location_con {
+  position: absolute;
+  top: 200px;
+  right: 35px;
+  width: 300px;
+}
+.location {
+  position: relative;
+  font-size: 25px;
+}

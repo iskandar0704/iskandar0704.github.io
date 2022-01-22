@@ -1,0 +1,48 @@
+.orpro {
+  max-width: 1440px;
+  font-family: Georgia, serif;
+}
+.header {
+  width: 1440px;
+  height: 150px;
+  background-color: blue;
+}
+.logo {
+  width: 200px;
+  height: 117px;
+  position: absolute;
+  top: 10px;
+  left: 5px;
+}
+.name {
+  position: absolute;
+  top: 40px;
+  left: 250px;
+}
+.nav {
+  position: absolute;
+  top: 100px;
+  right: 20px;
+  font-family: Georgia, serif;
+}
+.nav-link {
+  display: inline-block;
+  vertical-align: top;
+  margin: 10px;
+
+  transition: color 0.2s linear;
+}
+.nav-link::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 3px;
+  display: none;
+  background-color: white;
+}
+.nav-link:hover {
+  color: white;
+}
+.nav-link:hover::after {
+  display: block;
+}

@@ -1,0 +1,145 @@
+.connect {
+  max-width: 1440px;
+  font-family: Georgia, serif;
+}
+.header {
+  width: 1440px;
+  height: 150px;
+  background-color: blue;
+}
+.logo {
+  width: 200px;
+  height: 117px;
+  position: absolute;
+  top: 10px;
+  left: 5px;
+}
+.name {
+  position: absolute;
+  top: 40px;
+  left: 250px;
+}
+.nav {
+  position: absolute;
+  top: 100px;
+  right: 20px;
+  font-family: Georgia, serif;
+}
+.nav-link {
+  display: inline-block;
+  vertical-align: top;
+  margin: 10px;
+
+  transition: color 0.2s linear;
+}
+.nav-link::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 3px;
+  display: none;
+  background-color: white;
+}
+.nav-link:hover {
+  color: white;
+}
+.nav-link:hover::after {
+  display: block;
+}
+.footer {
+  position: absolute;
+  top: 151px;
+  left: 0px;
+  width: 1440px;
+  height: 700px;
+  background-color: blue;
+  color: white;
+  font-family: Georgia, serif;
+}
+.contacts {
+  position: absolute;
+  top: 200px;
+  left: 150px;
+  font-size: 40px;
+}
+.caller_icon {
+  position: absolute;
+  top: 290px;
+  left: 70px;
+  width: 40px;
+  height: 40px;
+}
+.phone {
+  position: absolute;
+  top: 290px;
+  left: 130px;
+  font-size: 25px;
+}
+.email_icon {
+  position: absolute;
+  top: 350px;
+  left: 70px;
+  width: 40px;
+  height: 40px;
+}
+.email {
+  position: absolute;
+  top: 350px;
+  left: 140px;
+  font-size: 25px;
+}
+.social {
+  position: absolute;
+  top: 200px;
+  left: 570px;
+  font-size: 40px;
+}
+.instagram_icon {
+  position: absolute;
+  top: 290px;
+  left: 610px;
+  width: 40px;
+  height: 40px;
+}
+.instagram {
+  position: absolute;
+  top: 290px;
+  left: 670px;
+  font-size: 25px;
+}
+.facebook_icon {
+  position: absolute;
+  top: 350px;
+  left: 610px;
+  width: 40px;
+  height: 40px;
+}
+.facebook {
+  position: absolute;
+  top: 350px;
+  left: 670px;
+  font-size: 25px;
+}
+.address {
+  position: absolute;
+  top: 200px;
+  right: 200px;
+  font-size: 40px;
+}
+.location_icon {
+  position: absolute;
+  top: 320px;
+  right: 360px;
+  width: 40px;
+  height: 40px;
+}
+.location_con {
+  position: absolute;
+  top: 300px;
+  right: 35px;
+  width: 300px;
+}
+.location {
+  position: relative;
+  font-size: 25px;
+}
