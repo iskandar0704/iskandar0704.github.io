@@ -2,3 +2,11 @@
   background-color: blue;
   font-family: sans-serif;
 }
+@media screen and (max-width: 320px) {
+  .content {
+    max-width: 100%;
+  }
+  .navbar {
+    max-width: 100%;
+  }
+}
