@@ -143,3 +143,86 @@
   position: relative;
   font-size: 25px;
 }
+@media screen and (max-width: 800px) {
+  .connect {
+    max-width: 100%;
+  }
+  .header {
+    max-width: 100%;
+  }
+  .name {
+    position: absolute;
+    top: 5px;
+    left: 220px;
+  }
+  .footer {
+    max-width: 100%;
+    height: 1000px;
+  }
+  .contacts {
+    position: absolute;
+    top: 80px;
+    left: 320px;
+  }
+  .caller_icon {
+    position: absolute;
+    top: 190px;
+    left: 260px;
+  }
+  .phone {
+    position: absolute;
+    left: 320px;
+    top: 190px;
+  }
+  .email_icon {
+    position: absolute;
+    top: 250px;
+    left: 260px;
+  }
+  .email {
+    position: absolute;
+    left: 320px;
+    top: 250px;
+  }
+  .social {
+    position: absolute;
+    top: 400px;
+    left: 250px;
+  }
+  .instagram_icon {
+    position: absolute;
+    top: 500px;
+    left: 320px;
+  }
+  .instagram {
+    position: absolute;
+    top: 500px;
+    left: 390px;
+  }
+  .facebook_icon {
+    position: absolute;
+    top: 550px;
+    left: 320px;
+  }
+  .facebook {
+    position: absolute;
+    top: 550px;
+    left: 390px;
+  }
+  .address {
+    position: absolute;
+    top: 700px;
+    left: 340px;
+  }
+  .location_icon {
+    position: absolute;
+    top: 800px;
+    left: 250px;
+  }
+  .location {
+    width: 350px;
+    position: absolute;
+    top: 480px;
+    left: -150px;
+  }
+}

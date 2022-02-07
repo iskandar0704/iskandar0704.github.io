@@ -4,31 +4,32 @@
 }
 .header {
   width: 1440px;
-  height: 150px;
+  height: 200px;
   background-color: blue;
 }
 .logo {
-  width: 200px;
-  height: 117px;
+  width: 260px;
+  height: 167px;
   position: absolute;
-  top: 10px;
-  left: 5px;
+  top: 20px;
+  left: 15px;
 }
 .name {
   position: absolute;
   top: 40px;
-  left: 250px;
+  left: 350px;
 }
 .nav {
   position: absolute;
-  top: 100px;
-  right: 20px;
+  top: 148px;
+  right: 5px;
   font-family: Georgia, serif;
+  font-size: 20px;
 }
 .nav-link {
   display: inline-block;
   vertical-align: top;
-  margin: 10px;
+  margin: 0px;
 
   transition: color 0.2s linear;
 }
@@ -50,7 +51,7 @@
   width: 700px;
   height: 400px;
   position: absolute;
-  top: 200px;
+  top: 250px;
   left: 10px;
   background-color: blue;
 }
@@ -74,7 +75,7 @@
   width: 700px;
   height: 400px;
   position: absolute;
-  top: 200px;
+  top: 250px;
   right: 10px;
   background-color: blue;
 }
@@ -98,7 +99,7 @@
   width: 700px;
   height: 400px;
   position: absolute;
-  top: 650px;
+  top: 700px;
   left: 10px;
   background-color: blue;
 }
@@ -122,7 +123,7 @@
   width: 700px;
   height: 400px;
   position: absolute;
-  top: 650px;
+  top: 700px;
   right: 10px;
   background-color: blue;
 }
@@ -146,7 +147,7 @@
   width: 700px;
   height: 400px;
   position: absolute;
-  top: 1100px;
+  top: 1150px;
   left: 10px;
   background-color: blue;
 }
@@ -170,7 +171,7 @@
   width: 700px;
   height: 400px;
   position: absolute;
-  top: 1100px;
+  top: 1150px;
   right: 10px;
   background-color: blue;
 }
@@ -192,7 +193,7 @@
 }
 .footer {
   position: absolute;
-  top: 1550px;
+  top: 1600px;
   width: 1440px;
   height: 500px;
   background-color: blue;
@@ -285,4 +286,112 @@
 .location {
   position: relative;
   font-size: 25px;
+}
+@media screen and (max-width: 800px) {
+  .connect {
+    max-width: 100%;
+  }
+  .header {
+    max-width: 100%;
+  }
+  .product1 {
+    position: absolute;
+    left: 50px;
+  }
+  .product2 {
+    position: absolute;
+    top: 400px;
+    left: 50px;
+    top: 700px;
+  }
+  .product3 {
+    position: absolute;
+    left: 50px;
+    top: 1150px;
+  }
+  .product4 {
+    position: absolute;
+    left: 50px;
+    top: 1600px;
+  }
+  .product5 {
+    position: absolute;
+    left: 50px;
+    top: 2050px;
+  }
+  .product6 {
+    position: absolute;
+    left: 50px;
+    top: 2500px;
+  }
+  .footer {
+    max-width: 100%;
+    position: absolute;
+    top: 2950px;
+    height: 1000px;
+  }
+  .contacts {
+    position: absolute;
+    top: 100px;
+    left: 320px;
+  }
+  .caller_icon {
+    position: absolute;
+    top: 190px;
+    left: 260px;
+  }
+  .phone {
+    position: absolute;
+    left: 320px;
+  }
+  .email_icon {
+    position: absolute;
+    top: 250px;
+    left: 260px;
+  }
+  .email {
+    position: absolute;
+    left: 320px;
+  }
+  .social {
+    position: absolute;
+    top: 400px;
+    left: 250px;
+  }
+  .instagram_icon {
+    position: absolute;
+    top: 500px;
+    left: 320px;
+  }
+  .instagram {
+    position: absolute;
+    top: 500px;
+    left: 390px;
+  }
+  .facebook_icon {
+    position: absolute;
+    top: 550px;
+    left: 320px;
+  }
+  .facebook {
+    position: absolute;
+    top: 550px;
+    left: 390px;
+  }
+  .address {
+    position: absolute;
+    top: 700px;
+    left: 340px;
+  }
+  .location_icon {
+    position: absolute;
+    top: 800px;
+    left: 250px;
+  }
+  .location {
+    width: 350px;
+    position: absolute;
+    top: 580px;
+    left: -150px;
+  }
 }
