@@ -62,6 +62,21 @@
   top: 30px;
   left: 30px;
 }
+.he1 {
+  position: absolute;
+  top: 10px;
+  right: 180px;
+  font-size: 10px;
+  color: white;
+}
+.info1 {
+  position: absolute;
+  top: 70px;
+  right: 70px;
+  font-size: 18px;
+  color: white;
+  width: 330px;
+}
 .product1_button {
   position: absolute;
   top: 330px;
@@ -85,6 +100,20 @@
   left: 30px;
   width: 200px;
   height: 200px;
+}
+.he2 {
+  position: absolute;
+  top: 5px;
+  right: 250px;
+  color: white;
+}
+.info2 {
+  position: absolute;
+  top: 70px;
+  right: 70px;
+  font-size: 20px;
+  width: 350px;
+  color: white;
 }
 .product2_button {
   position: absolute;

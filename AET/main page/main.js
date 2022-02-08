@@ -1,6 +1,6 @@
 onclick = "instagram";
 function instagram() {
-  location.replace("http://instagram.com/iskandar_0704");
+  location.replace("http://instagram.com/andijon_energo");
 }
 
 onclick = "email";
